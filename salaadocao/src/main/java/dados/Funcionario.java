@@ -3,7 +3,7 @@ package dados;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Funcionario extends Usuario implements Adicionar, Listar, Adotar {
+public class Funcionario extends Usuario implements Adicionar, Listar {
 
     Scanner lerFunc = new Scanner(System.in);
     private String idFuncionario;
