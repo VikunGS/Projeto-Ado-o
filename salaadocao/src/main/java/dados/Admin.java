@@ -2,7 +2,7 @@ package dados;
 
 import java.util.ArrayList;
 
-public class Admin extends Usuario implements Adicionar, Listar, Excluir, Adotar {
+public class Admin extends Usuario implements Adicionar, Listar, Excluir {
 
     private String idAdmin;
     private String senha;
